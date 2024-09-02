@@ -11,6 +11,8 @@
 		044C800D2C85851100967734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C800C2C85851100967734 /* ContentView.swift */; };
 		044C800F2C85851300967734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044C800E2C85851300967734 /* Assets.xcassets */; };
 		044C80122C85851300967734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044C80112C85851300967734 /* Preview Assets.xcassets */; };
+		044C801B2C85891800967734 /* CustomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C801A2C85891800967734 /* CustomButtonModifier.swift */; };
+		044C801D2C858BCA00967734 /* SetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C801C2C858BCA00967734 /* SetProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		044C800C2C85851100967734 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		044C800E2C85851300967734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044C80112C85851300967734 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044C801A2C85891800967734 /* CustomButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModifier.swift; sourceTree = "<group>"; };
+		044C801C2C858BCA00967734 /* SetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				044C800A2C85851100967734 /* PracticeSwiftUIApp.swift */,
 				044C800C2C85851100967734 /* ContentView.swift */,
+				044C801C2C858BCA00967734 /* SetProfileView.swift */,
+				044C801A2C85891800967734 /* CustomButtonModifier.swift */,
 				044C800E2C85851300967734 /* Assets.xcassets */,
 				044C80102C85851300967734 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				044C800D2C85851100967734 /* ContentView.swift in Sources */,
 				044C800B2C85851100967734 /* PracticeSwiftUIApp.swift in Sources */,
+				044C801B2C85891800967734 /* CustomButtonModifier.swift in Sources */,
+				044C801D2C858BCA00967734 /* SetProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
