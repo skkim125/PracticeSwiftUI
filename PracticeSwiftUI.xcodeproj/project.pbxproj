@@ -16,6 +16,9 @@
 		044C80212C858FE600967734 /* CircleButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C80202C858FE600967734 /* CircleButtonModifier.swift */; };
 		044C80232C8593E400967734 /* PointButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C80222C8593E400967734 /* PointButtonWrapper.swift */; };
 		044C80252C8595AA00967734 /* SignUpCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C80242C8595AA00967734 /* SignUpCompleteView.swift */; };
+		04D930052C8755A60094F78F /* MyMoneySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D930042C8755A60094F78F /* MyMoneySearchView.swift */; };
+		04D930072C8756D70094F78F /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D930062C8756D70094F78F /* Money.swift */; };
+		04D9300A2C875C1B0094F78F /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D930092C875C1B0094F78F /* Banner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		044C80202C858FE600967734 /* CircleButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonModifier.swift; sourceTree = "<group>"; };
 		044C80222C8593E400967734 /* PointButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButtonWrapper.swift; sourceTree = "<group>"; };
 		044C80242C8595AA00967734 /* SignUpCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCompleteView.swift; sourceTree = "<group>"; };
+		04D930042C8755A60094F78F /* MyMoneySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoneySearchView.swift; sourceTree = "<group>"; };
+		04D930062C8756D70094F78F /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		04D930092C875C1B0094F78F /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				044C800A2C85851100967734 /* PracticeSwiftUIApp.swift */,
+				04D930082C875C110094F78F /* Model */,
 				044C801F2C858C7700967734 /* View */,
 				044C801E2C858C6900967734 /* Modifier */,
 				044C800E2C85851300967734 /* Assets.xcassets */,
@@ -94,8 +101,18 @@
 				044C800C2C85851100967734 /* ContentView.swift */,
 				044C801C2C858BCA00967734 /* SetProfileView.swift */,
 				044C80242C8595AA00967734 /* SignUpCompleteView.swift */,
+				04D930042C8755A60094F78F /* MyMoneySearchView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		04D930082C875C110094F78F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D930062C8756D70094F78F /* Money.swift */,
+				04D930092C875C1B0094F78F /* Banner.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,10 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				044C800D2C85851100967734 /* ContentView.swift in Sources */,
+				04D930052C8755A60094F78F /* MyMoneySearchView.swift in Sources */,
 				044C800B2C85851100967734 /* PracticeSwiftUIApp.swift in Sources */,
+				04D930072C8756D70094F78F /* Money.swift in Sources */,
 				044C80232C8593E400967734 /* PointButtonWrapper.swift in Sources */,
 				044C801B2C85891800967734 /* CustomButtonModifier.swift in Sources */,
 				044C801D2C858BCA00967734 /* SetProfileView.swift in Sources */,
+				04D9300A2C875C1B0094F78F /* Banner.swift in Sources */,
 				044C80252C8595AA00967734 /* SignUpCompleteView.swift in Sources */,
 				044C80212C858FE600967734 /* CircleButtonModifier.swift in Sources */,
 			);
