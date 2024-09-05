@@ -19,6 +19,7 @@
 		0491576A2C884C4F009B99E4 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049157692C884C4F009B99E4 /* CoinView.swift */; };
 		0491576C2C888875009B99E4 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491576B2C888875009B99E4 /* UpbitAPI.swift */; };
 		049157702C88956A009B99E4 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491576F2C88956A009B99E4 /* NavigationLazyView.swift */; };
+		049157752C898A36009B99E4 /* MyRandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049157742C898A36009B99E4 /* MyRandomImageView.swift */; };
 		04D930052C8755A60094F78F /* MyMoneySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D930042C8755A60094F78F /* MyMoneySearchView.swift */; };
 		04D930072C8756D70094F78F /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D930062C8756D70094F78F /* Money.swift */; };
 		04D9300A2C875C1B0094F78F /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D930092C875C1B0094F78F /* Banner.swift */; };
@@ -38,6 +39,7 @@
 		049157692C884C4F009B99E4 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		0491576B2C888875009B99E4 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 		0491576F2C88956A009B99E4 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		049157742C898A36009B99E4 /* MyRandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImageView.swift; sourceTree = "<group>"; };
 		04D930042C8755A60094F78F /* MyMoneySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoneySearchView.swift; sourceTree = "<group>"; };
 		04D930062C8756D70094F78F /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		04D930092C875C1B0094F78F /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				044C800A2C85851100967734 /* PracticeSwiftUIApp.swift */,
 				0491576B2C888875009B99E4 /* UpbitAPI.swift */,
+				049157712C898937009B99E4 /* Reusable */,
 				04D930082C875C110094F78F /* Model */,
 				044C801F2C858C7700967734 /* View */,
 				044C801E2C858C6900967734 /* Modifier */,
@@ -110,9 +113,17 @@
 				044C80242C8595AA00967734 /* SignUpCompleteView.swift */,
 				04D930042C8755A60094F78F /* MyMoneySearchView.swift */,
 				049157692C884C4F009B99E4 /* CoinView.swift */,
-				0491576F2C88956A009B99E4 /* NavigationLazyView.swift */,
+				049157742C898A36009B99E4 /* MyRandomImageView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		049157712C898937009B99E4 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				0491576F2C88956A009B99E4 /* NavigationLazyView.swift */,
+			);
+			path = Reusable;
 			sourceTree = "<group>";
 		};
 		04D930082C875C110094F78F /* Model */ = {
@@ -203,6 +214,7 @@
 				044C80232C8593E400967734 /* PointButtonWrapper.swift in Sources */,
 				044C801B2C85891800967734 /* CustomButtonModifier.swift in Sources */,
 				0491576C2C888875009B99E4 /* UpbitAPI.swift in Sources */,
+				049157752C898A36009B99E4 /* MyRandomImageView.swift in Sources */,
 				044C801D2C858BCA00967734 /* SetProfileView.swift in Sources */,
 				04D9300A2C875C1B0094F78F /* Banner.swift in Sources */,
 				044C80252C8595AA00967734 /* SignUpCompleteView.swift in Sources */,
